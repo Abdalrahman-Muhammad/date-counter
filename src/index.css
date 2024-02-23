@@ -1,0 +1,46 @@
+/* styles.css */
+
+/* Common styles for containers */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+.button {
+  font-size: 1.5rem;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2075c1;
+}
+
+/* Span styles for additional information */
+.span {
+  font-size: 1.2rem;
+  margin: 0 15px;
+  color: #333;
+}
+
+/* Paragraph styles for descriptive text */
+.paragraph {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555;
+}
+
+/* Add more specific styles for different sections if necessary */
